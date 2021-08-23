@@ -20,8 +20,8 @@ jobs:
      steps:
        - checkout
        - run: echo "Hellloooo!"
-ZERO:
-  run: echo "Z.E.R.O - 1 Systems Initiated"
+    ZERO:
+      run: echo "Z.E.R.O - 1 Systems Initiated"
 workflows:
   version: 2
   build-test-and-lint:
